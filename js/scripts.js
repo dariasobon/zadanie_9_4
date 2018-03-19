@@ -4,9 +4,9 @@
 
 function drawTree(rows) {
 	var stars = '';
-	for (var i = 1; i < rows; i++) {
+	for (var i = 1; i <= rows; i++) {
 		stars = '';
-		for (var = j; j < rows; j++) {
+		for (var j = 0; j < i; j++) {
 			stars += '*';
 		}
 		console.log(stars);
